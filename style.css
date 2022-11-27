@@ -1,5 +1,70 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap");
 
 body {
-  font-family: "Roboto";
+  font-family: "Muli", sans-serif;
+  color: #fff;
+  background-color: steelblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+main {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.3rem 2.5rem;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+p a {
+  color: lightblue;
+  text-decoration: none;
+}
+
+.btn {
+  display: inline-block;
+  width: 100%;
+  color: #333;
+  background-color: #add8e6;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 1.3rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  scale: 0.98;
+}
+
+.form-control {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  display: block;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 1rem 0 0.5rem;
+}
+
+input:focus,
+input:valid {
+  outline: none;
 }
